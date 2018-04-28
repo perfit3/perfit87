@@ -83,7 +83,16 @@ header{
     background-color: #e8e8e8;
 }
 
+/*===================header.js / navbar================*/
 
+.nav-left{
+position: absolute;
+left: 0;
+}
 
+.nav-right{
+position: absolute;
+right: 0;
+}
 
 

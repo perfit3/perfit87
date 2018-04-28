@@ -4,10 +4,12 @@ const Header = () => {
     return(
         <div>
                 <header>
-                    <ul className="nav">
+                    <ul className="nav-left">
                         <li className="nav-item">
                             <a class="navbar-brand" href="/">Perfit</a>
                         </li>
+                    </ul>    
+                    <ul className="nav-right">
                         <li className="nav-item">
                             <a className="nav-link" href="#">How it works</a>
                         </li>
