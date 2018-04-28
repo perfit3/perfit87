@@ -10,12 +10,19 @@
     "react-scripts": "1.1.4",
     "react-slick": "^0.23.1",
     "redux": "^4.0.0",
-    "redux-promise": "^0.5.3"
+    "redux-promise": "^0.5.3",
+     "express": "^4.16.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "client" : "cd client && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },
+   "devDependencies": {
+    "concurrently": "^3.5.0"
   }
 }
